@@ -15,6 +15,9 @@
 		F5E1203426AF0F0900847AE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E1203226AF0F0900847AE4 /* LaunchScreen.storyboard */; };
 		F5E1203F26AF0F0D00847AE4 /* PhotoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E1203E26AF0F0D00847AE4 /* PhotoAppTests.swift */; };
 		F5E1204A26AF0F0E00847AE4 /* PhotoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E1204926AF0F0E00847AE4 /* PhotoAppUITests.swift */; };
+		F5E1205826AF1AB200847AE4 /* StyleBlue.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F5E1205726AF1AB200847AE4 /* StyleBlue.mlmodel */; };
+		F5E1205926AF1AB200847AE4 /* StyleBlue.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F5E1205726AF1AB200847AE4 /* StyleBlue.mlmodel */; };
+		F5E1205A26AF1AB200847AE4 /* StyleBlue.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F5E1205726AF1AB200847AE4 /* StyleBlue.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		F5E1204526AF0F0E00847AE4 /* PhotoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E1204926AF0F0E00847AE4 /* PhotoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAppUITests.swift; sourceTree = "<group>"; };
 		F5E1204B26AF0F0E00847AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E1205726AF1AB200847AE4 /* StyleBlue.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = StyleBlue.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		F5E1202626AF0EDE00847AE4 /* PhotoApp */ = {
 			isa = PBXGroup;
 			children = (
+				F5E1205726AF1AB200847AE4 /* StyleBlue.mlmodel */,
 				F5E1202726AF0EDE00847AE4 /* AppDelegate.swift */,
 				F5E1202926AF0EDE00847AE4 /* SceneDelegate.swift */,
 				F5E1202B26AF0EDE00847AE4 /* ViewController.swift */,
@@ -260,6 +265,7 @@
 			files = (
 				F5E1202C26AF0EDE00847AE4 /* ViewController.swift in Sources */,
 				F5E1202826AF0EDE00847AE4 /* AppDelegate.swift in Sources */,
+				F5E1205826AF1AB200847AE4 /* StyleBlue.mlmodel in Sources */,
 				F5E1202A26AF0EDE00847AE4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5E1205926AF1AB200847AE4 /* StyleBlue.mlmodel in Sources */,
 				F5E1203F26AF0F0D00847AE4 /* PhotoAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5E1205A26AF1AB200847AE4 /* StyleBlue.mlmodel in Sources */,
 				F5E1204A26AF0F0E00847AE4 /* PhotoAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
